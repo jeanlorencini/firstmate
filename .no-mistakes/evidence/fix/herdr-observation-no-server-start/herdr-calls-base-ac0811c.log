@@ -1,0 +1,183 @@
+
+# STEP real herdr session list (before)
+
+# STEP fm_backend_herdr_capture fm-lab-obsprobe-1974147-7441:w1:p1 40
+status --json --session fm-lab-obsprobe-1974147-7441
+server --session fm-lab-obsprobe-1974147-7441
+BLOCKED server start: server --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+
+# STEP fm_backend_herdr_busy_state fm-lab-obsprobe-1974147-7441:w1:p1
+status --json --session fm-lab-obsprobe-1974147-7441
+server --session fm-lab-obsprobe-1974147-7441
+BLOCKED server start: server --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+
+# STEP bin/fm-fleet-snapshot.sh --json (task row)
+pane get w1:p1 --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+server --session fm-lab-obsprobe-1974147-7441
+BLOCKED server start: server --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+
+# STEP bin/fm-bearings-snapshot.sh
+pane get w1:p1 --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+server --session fm-lab-obsprobe-1974147-7441
+BLOCKED server start: server --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+
+# STEP bin/fm-crew-state.sh obs-probe
+status --json --session fm-lab-obsprobe-1974147-7441
+server --session fm-lab-obsprobe-1974147-7441
+BLOCKED server start: server --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+pane get w1:p1 --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+
+# STEP bin/fm-peek.sh obs-probe
+status --json --session fm-lab-obsprobe-1974147-7441
+server --session fm-lab-obsprobe-1974147-7441
+BLOCKED server start: server --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+
+# STEP pane-acting control: fm_backend_herdr_send_key fm-lab-obsprobe-1974147-7441:w1:p1 Escape
+status --json --session fm-lab-obsprobe-1974147-7441
+server --session fm-lab-obsprobe-1974147-7441
+BLOCKED server start: server --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+status --json --session fm-lab-obsprobe-1974147-7441
+
+# STEP real herdr session list (after)

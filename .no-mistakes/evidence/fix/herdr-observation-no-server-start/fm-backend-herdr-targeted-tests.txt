@@ -1,0 +1,6 @@
+ok - herdr recovery-grade read: a stopped server means missing there, and nowhere else
+ok - herdr client status: .server.compatible, legacy protocol equality, unknown, and stopped shapes all normalize
+ok - fm_backend_herdr_capture: probes the session and preserves pane read failure
+ok - fm_backend_herdr_capture/busy_state: a stopped session reads unavailable without running 'herdr server'
+ok - fm_backend_herdr_send_key: still starts a stopped server before acting on the pane
+rc=0

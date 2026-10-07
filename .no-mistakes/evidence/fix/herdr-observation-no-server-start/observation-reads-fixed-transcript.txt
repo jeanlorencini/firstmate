@@ -1,0 +1,47 @@
+## code=/home/zerojour/.no-mistakes/worktrees/00cf269a2abb/01M4BW2DHKJ2BRAP5M16JHYTAG session=fm-lab-obsprobe-1974147-7441
+
+=== real herdr session list (before) ===
+[{"name":"default","running":false},{"name":"fmlab","running":true}]
+
+=== fm_backend_herdr_capture fm-lab-obsprobe-1974147-7441:w1:p1 40 ===
+exit=1
+
+=== fm_backend_herdr_busy_state fm-lab-obsprobe-1974147-7441:w1:p1 ===
+busy_state=unknown
+
+=== bin/fm-fleet-snapshot.sh --json (task row) ===
+{"id":"obs-probe","backend":"herdr","target":"fm-lab-obsprobe-1974147-7441:w1:p1","current_state":{"state":"unknown","source":"none","detail":"backend target gone: fm-lab-obsprobe-1974147-7441:w1:p1"},"capture":null}
+
+=== bin/fm-bearings-snapshot.sh ===
+exit=0
+
+=== bin/fm-crew-state.sh obs-probe ===
+state: unknown · source: none · backend target gone: fm-lab-obsprobe-1974147-7441:w1:p1
+
+=== bin/fm-peek.sh obs-probe ===
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no watcher has a fresh beacon (last beat: never, grace 300s).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  watcher supervision needs Stop-owned automatic recovery; inspect the hook registration and startup status before ending the turn.
+exit=1
+
+=== pane-acting control: fm_backend_herdr_send_key fm-lab-obsprobe-1974147-7441:w1:p1 Escape ===
+error: herdr server for session 'fm-lab-obsprobe-1974147-7441' did not report running within 10s
+exit=1
+
+=== real herdr session list (after) ===
+[{"name":"default","running":false},{"name":"fmlab","running":true}]
+
+--- server-start attempts recorded by guard shim ---
+# STEP pane-acting control: fm_backend_herdr_send_key fm-lab-obsprobe-1974147-7441:w1:p1 Escape -> server --session fm-lab-obsprobe-1974147-7441
+# STEP pane-acting control: fm_backend_herdr_send_key fm-lab-obsprobe-1974147-7441:w1:p1 Escape -> BLOCKED server start: server --session fm-lab-obsprobe-1974147-7441
+--- herdr calls per step ---
+4 # STEP bin/fm-bearings-snapshot.sh
+3 # STEP bin/fm-crew-state.sh obs-probe
+4 # STEP bin/fm-fleet-snapshot.sh --json (task row)
+1 # STEP bin/fm-peek.sh obs-probe
+1 # STEP fm_backend_herdr_busy_state fm-lab-obsprobe-1974147-7441:w1:p1
+1 # STEP fm_backend_herdr_capture fm-lab-obsprobe-1974147-7441:w1:p1 40
+23 # STEP pane-acting control: fm_backend_herdr_send_key fm-lab-obsprobe-1974147-7441:w1:p1 Escape
